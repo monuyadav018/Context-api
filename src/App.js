@@ -1,19 +1,15 @@
-import Count from './components/Count';
-import { useContext } from 'react';
-import { ConterContext } from './context/Counter';
+import Item from './components/Item';
+import Cart from './components/Cart';
 import './App.css';
 
 function App() {
-  const counterState= useContext(ConterContext);
-  // console.log("context",counterState);
+
   return (
     <div className="App">
-      <h1>the count is {counterState.count}</h1>
-      <Count/>
-      <Count/>
-      <Count/>
-      <Count/>
-
+     <Item name="Macbook Pro" price={100000}/>
+     <Item name="Pendrive" price={4000}/>
+     <Item name="Mobile" price={35000}/>
+    <Cart/>
     </div>
   );
 }
