@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.item-card{
+  display: flex;
+  border: 1px solid black;
+  text-align: center;
+  width: 50%;
+  align-content: center;
+  margin-left: 300px;
+
+}
+
+.price{
+  margin-left: 100px;
+}
+.btn{  margin-left: 100px;
+  height: 20px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: rgb(230, 191, 137);
+  border-style: hidden;
+}
+
+.name{
+  margin-left: 10px;
+}
+
+.btn:hover{
+  background-color: rgb(44, 90, 146);
+}
